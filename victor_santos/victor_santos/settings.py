@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'uploads',
+    
 ]
 
 MIDDLEWARE = [
@@ -79,8 +80,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'OLIVEIRATRUST',  # SCHEMA DEFAULT
-        'USER': 'root',  # USER DEFAULT
-        'PASSWORD': 'J5cls5ow',  # PW PARA USUARIO
+        'USER': 'oliveiradesafio',  # USER DEFAULT
+        'PASSWORD': '123456',  # PW PARA USUARIO
         'HOST': 'localhost',
         'PORT': '3306',
     }
